@@ -5,7 +5,7 @@
 import time
 
 def main():
-    print ( 'Please enter "Yes" or "No" for all the following questions.')
+    print ( 'Please enter "Yes" or "No" for all the following questions.\n--Don\'t worry about the case.--')
     time.sleep(1)
 
     chk = input('Does it move? ')
