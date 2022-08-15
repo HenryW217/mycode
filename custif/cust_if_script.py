@@ -10,19 +10,19 @@ def main():
 
     chk = input('Does it move? ')
     if chk.lower() == 'no':
-        n1 = input('Should it? ')
-        if n1.lower() == 'no':
+        m = input('Should it? ')
+        if m.lower() == 'no':
             print('No Problem!')
-        elif n1.lower() == 'yes':
+        elif m.lower() == 'yes':
             print('Try use WD-40!')
         else:
             print('Don\'t try to break my code!\nAnswer with "Yes" or "No" only!!\nTry Again!')
 
     elif chk.lower() == 'yes':
-        n2 = input('Should it? ')
-        if n2.lower() == 'yes':
+        n = input('Should it? ')
+        if n.lower() == 'yes':
             print('No Problem!')
-        elif n2.lower() == 'no':
+        elif n.lower() == 'no':
             print('Try use duct tape!')
         else:
             print('Don\'t try to break my code!\nAnswer with "Yes" or "No" only!!\nTry Again!')
